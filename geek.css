@@ -1,0 +1,154 @@
+body{
+				font-family:"Baloo Da 2";
+				padding:0px;
+				margin:0px;
+				background-color:#f4f4f4;
+				}
+.restimg{
+				margin:2.5pc auto 4pc auto;
+				width:45%;
+				height:100px;
+				background-image:url(restaurantimg.jpg);
+				background-size:cover;
+				background-position:center;
+				border:5px solid #aa00ff ;		
+				}
+.believe{
+				margin:0pc auto 3pc auto;
+				}
+.breathe{
+				font-family:"Baloo Da 2";
+				text-align:center;
+				font-size:20px;
+				
+				}
+.eat{
+				font-family:"Baloo Da 2";
+				text-align:center;
+				font-size:35px ;
+				font-weight:bold;
+				color:#5900cc;
+				}
+.geek{
+				margin:auto;
+				width:90%;
+				height:45vh;
+				background-image:url(geek1.png);
+				background-size:cover;
+				background-position:center;
+				border:4px double #aeaeae;
+				background-clip:content-box;
+				border-radius:15px;
+				animation: geektutor 2s ease infinite;
+				}
+@keyframes geektutor{
+				0%{opacity:0.6;}
+			 10%{opacity:0.7;}
+				100%{opacity:1;}
+				}
+.expect{
+				margin:3pc auto 12pc auto;
+				text-align:center;
+				}
+.reason{
+				margin:1pc auto 1pc auto;
+				}
+.icon{
+				margin:auto;
+				width:40px;
+				height:40px;
+				}		
+footer{
+				margin-top:5pc;
+				padding:20px;
+				background-color:rgba(120,120,120,0.2);
+				color:white;			
+				border:5px solid rgba(190 ,190, 190,0.4);	
+				}		
+.footicon{
+				display:flex;
+				justify-content: center;
+				}
+.speech{
+				color:black;
+				text-align:center;
+				}			
+.design{
+				font-size:35px;
+				font-family:"Parisienne";
+				color:#5900cc;
+				}
+.locate1{
+				margin:2pc auto 0pc auto;
+				}
+.locate2{
+				font-size:20px;
+				text-align:center;
+				color:#5900cc;
+				font-weight:bold;
+				}
+.locate3{
+				margi:0pc 3px 2pc 3px;
+				text-align:center;
+				}
+.contact1{
+				margin:2pc auto 2pc auto;
+				}
+.contact2{
+				font-size:20px;
+				color:#5900cc;
+				text-align:center;
+				font-weight:bold;
+				}
+.contact3{
+				text-align:center;
+				}
+.proud1{
+				margin:2pc auto 2pc auto;
+				}
+.proud2{
+				font-size:20px;
+				text-align:center;
+				color:#5900cc;
+				font-weight:bold;
+				}
+.myownlogo{
+				width:90px;
+				height:90px;
+				background-image:url(myownlogo.jpg);
+				background-size:cover;
+				border-radius:50%;
+				margin:1pc auto 2.5pc auto;
+				}
+hr{
+				height:2px;
+				width:55%;
+				background-color:#dbdbdb;
+				border:none;
+				}
+.divide{
+				width:100%;
+				height:15px;
+				background-color:#aa00ff;
+				}
+				
+/** MEDIA QUERY BEGINS **/
+
+@media (min-width:767px){
+.geek{width:60%;
+      height:400px;
+      
+}				
+
+.locate1, .contact1, .proud1{
+				background-colo:green;
+				width:30%;
+				}				
+.pcflex1{
+				display:flex;
+				justify-content:space-around;
+				}								
+hr{display:none;}				
+				}
+				
+/** MEDIA QUERY ENDS **/
